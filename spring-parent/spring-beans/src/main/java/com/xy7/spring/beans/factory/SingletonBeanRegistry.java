@@ -3,7 +3,7 @@ package com.xy7.spring.beans.factory;
 /**
  * @Author yuanqi.xing
  * @Date 2023/2/11 11:13
- * @Description: 单例模式下的Bean注册器
+ * @Description: 单例模式下的Bean对象的注册器
  * @Version 1.0
  */
 public interface SingletonBeanRegistry {

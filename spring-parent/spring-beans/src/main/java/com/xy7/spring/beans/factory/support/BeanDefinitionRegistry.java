@@ -7,7 +7,7 @@ import com.xy7.spring.beans.factory.config.BeanDefination;
 /**
  * @Author yuanqi.xing
  * @Date 2023/2/11 16:50
- * @Description: Bean定义的注册器
+ * @Description: Bean属性定义的注册器
  * @Version 1.0
  */
 public interface BeanDefinitionRegistry {
