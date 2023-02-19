@@ -10,4 +10,3 @@ public class BeansException extends RuntimeException{
         super(msg,cause);
     }
 }
-
