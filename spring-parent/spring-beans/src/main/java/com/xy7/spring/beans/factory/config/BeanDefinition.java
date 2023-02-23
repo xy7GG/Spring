@@ -6,7 +6,7 @@ package com.xy7.spring.beans.factory.config;
  * @Description: bean的属性的定义
  * @Version 1.0
  */
-public interface BeanDefination {
+public interface BeanDefinition {
     /**
      * 设置bean的className
      * @param beanClassName
@@ -30,4 +30,10 @@ public interface BeanDefination {
      * @return
      */
     boolean isSingleton();
+
+    /**
+     * 是否为多例
+     * @return
+     */
+    boolean isPrototype();
 }

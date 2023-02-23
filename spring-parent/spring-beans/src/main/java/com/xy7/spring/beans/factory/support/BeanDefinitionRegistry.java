@@ -2,7 +2,7 @@ package com.xy7.spring.beans.factory.support;
 
 import com.xy7.spring.beans.NoSuchBeanDefinitionException;
 import com.xy7.spring.beans.factory.BeanDefinitionStoreException;
-import com.xy7.spring.beans.factory.config.BeanDefination;
+import com.xy7.spring.beans.factory.config.BeanDefinition;
 
 /**
  * @Author yuanqi.xing
@@ -12,9 +12,11 @@ import com.xy7.spring.beans.factory.config.BeanDefination;
  */
 public interface BeanDefinitionRegistry {
 
-    void registerBeanDefinition(String beanName, BeanDefination beanDefination) throws BeanDefinitionStoreException;
+    void registerBeanDefinition(String beanName, BeanDefinition beanDefination) throws BeanDefinitionStoreException;
 
     void removeBeanDefinition(String beanName) throws NoSuchBeanDefinitionException;
 
-    BeanDefination getBeanDefinition(String beanName) throws NoSuchBeanDefinitionException;
+    BeanDefinition getBeanDefinition(String beanName) throws NoSuchBeanDefinitionException;
+
+    int getBeanDefinitionCount();
 }

@@ -10,7 +10,8 @@ import java.io.IOException;
 /**
  * @Author yuanqi.xing
  * @Date 2023/2/12 16:48
- * @Description: TODO
+ * @Description: 读取classpath下的xml文件，注册bean到Spring容器中，
+ * 根据beanName获取容器中的bean，ApplicationContext的其中一个实现
  * @Version 1.0
  */
 public class ClassPathXmlApplicationContext implements ApplicationContext {
